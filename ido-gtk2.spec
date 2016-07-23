@@ -1,5 +1,5 @@
-Summary:	Shared functions for Ayatana indicators (GTK+ 2.x version)
-Summary(pl.UTF-8):	Funkcje współdzielone dla wskaźników Ayatana (wersja dla GTK+ 2.x)
+Summary:	Shared functions for Ayatana Indicator Display Objects (GTK+ 2.x version)
+Summary(pl.UTF-8):	Funkcje współdzielone dla obiektów wyświetlania wskaźników Ayatana (wersja dla GTK+ 2.x)
 Name:		ido-gtk2
 # note: versions > 0.3.x no longer support GTK+ 2
 Version:	0.3.4
@@ -23,10 +23,12 @@ Requires:	gtk+2 >= 2:2.20
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Shared functions for Ayatana indicators (GTK+ 2.x version).
+Shared functions for Ayatana Indicator Display Objects (GTK+ 2.x
+version).
 
 %description -l pl.UTF-8
-Funkcje współdzielone dla wskaźników Ayatana (wersja dla GTK+ 2.x)
+Funkcje współdzielone dla obiektów wyświetlania wskaźników Ayatana
+(wersja dla GTK+ 2.x).
 
 %package devel
 Summary:	Development files for ido library (GTK+ 2.x version)
